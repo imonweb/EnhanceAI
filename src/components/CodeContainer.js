@@ -9,10 +9,10 @@ const CodeContainer = () => {
                 }`
   return (
     //  tools for layout: border-solid border-2 border-rose-600
-      <section className="relative py-8">
+      <section className="relative py-8 z-50">
         <div className="container mx-auto">
 
-          <div className="rounded-2xl shadow-xl border flex divide-x bg-white">
+          <div className="rounded-2xl shadow-xl border flex divide-x bg-white" style={{boxShadow:'0px 0px 40em rgba(0,0,0,0.125)' }}>
             <div className="p-8 flex-1">
              
               <div className="flex">
@@ -36,11 +36,11 @@ const CodeContainer = () => {
                 </code>
               </div>
 
-              <Link to="#" className='mt-8 sm:px-4 py-2 hover:bg-gray-200 rounded-md active bg-gradient-to-r border-t-2 border-indigo-400 bg-gradient-to-br from-purple-500 to-indigo-600 hover:from-green-600 hover:via-blue-700 hover:to-purple-700 text-white rounded-md flex md:inline-flex font-medium text-lg cursor-pointer hover:shadow-lg transition'>
+              <Link to="#" className='mt-6 sm:px-4 py-2 hover:bg-gray-200 rounded-md active bg-gradient-to-r border-t-2 border-indigo-400 bg-gradient-to-br from-purple-500 to-indigo-600 hover:from-green-600 hover:via-blue-700 hover:to-purple-700 text-white rounded-md flex md:inline-flex font-medium text-lg cursor-pointer hover:shadow-lg transition'>
              <svg className="w-6 h-6 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7v8a2 2 0 002 2h6M8 7V5a2 2 0 012-2h4.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V15a2 2 0 01-2 2h-2M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2v-2"></path></svg>
               
                 
-                Enhance AI</Link>
+                Enhance with AI</Link>
               
             </div>
 
