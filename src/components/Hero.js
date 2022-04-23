@@ -5,7 +5,7 @@ import HeroTopRightDots from '../imgs/hero-top-right-dots.svg'
 const Hero = () => {
   return (
  
-    <section className='hero py-4 px-24 text-center relative'>
+    <section className='hero py-12 px-24 text-center relative'>
       <img src={HeroTopRightDots} 
       style={{ 
         width: "118px", 
