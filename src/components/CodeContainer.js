@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const CodeContainer = () => {
 
-  const HelloWorld = '<p style={{color:"red"}}>HelloWorld</p>'
+ 
   const codes = `function HelloWorld(text){
                   echo text || "Hello World";
                 }`
